@@ -8,8 +8,8 @@ export default {
   intro: {
     title: 'Narco airstrips',
     subtitle:
-      'Using the Earth Index, an AI algorithm, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.',
-    date: 'Oct. 24 2024',
+      'Mongabay Latam and Earth Genome developed a tool that uses artificial intelligence to detect clandestine airstrips in three regions of the Peruvian Amazon, where more than a dozen Indigenous leaders have been killed in the last four years.',
+    date: 'Oct. 28, 2024',
     social: [
       {
         name: 'twitter',
@@ -36,6 +36,12 @@ export default {
       width: '100',
       href: 'https://vizzuality.com',
     },
+    {
+      name: 'earthgenome',
+      src: 'EarthGenomeLogo.png',
+      width: '100',
+      href: 'https://earthgenome.org',
+        },
   ],
   alignment: 'left',
   footer: 'Cartography by Willie Shubert for Mongabay.',
@@ -46,15 +52,19 @@ export default {
       hidden: false,
       title: 'Airstrips detected',
       description:
-        'Using the Earth Index, an AI algorithm, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.',
+        'Using the Earth Index, a tool that uses computer vision AI to ideintify patterns in satellite imagery, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.',
       legend: [
         {
           title: 'Landing strips',
           icon: 'plane',
         },
+        {
+          title: 'Peruvian Amazon',
+          color: '#037760',
+        },
       ],
       sources:
-        "National Police of Peru's Anti-Narcotics Unit (Dirandro), Earth Genome, OpenStreetMap, and Ucayali Regional Government.",
+        "Airstrips: National Police of Peru's Anti-Narcotics Unit (Dirandro), Earth Genome, OpenStreetMap, and Ucayali Regional Government. Amazon biome: Instituto del Bien Común (IBC)",
       location: {
         center: [-74.19873, -9.59581],
         zoom: 5.3,
@@ -103,11 +113,10 @@ export default {
           src: 'Pist069_PleiadesNeo2022-07-27.jpg',
           position: 'top',
           title: 'Airstrip 69',
-          author: 'SPOT IMAGE',
+          author: 'Airbus',
         },
       ],
-      description:
-        'Journalistic verification of each airstrip involved cross referencing results from Earth Index with government data, open source information and local sources. This investigation confirms that 67 of the 76 drug runways are distributed between Ucayali (45), Huánuco (17) and Pasco (5), and today serve drug trafficking.',
+      description:'Journalistic verification of each airstrip involved cross referencing results from Earth Index with government data, open source information and local sources. This investigation confirms that 67 clandestine airstrips distributed between Ucayali (45), Huánuco (17) and Pasco (5), are used for drug trafficking.',
       legend: [
         {
           title: 'Coca crop density in 2023',
@@ -200,7 +209,7 @@ export default {
           src: 'Pist018_SPOT2020-08-01.jpg',
           position: 'top',
           title: 'Airstrip 18',
-          author: 'SPOT Image',
+          author: 'Airbus',
         },
       ],
       description:
@@ -275,8 +284,8 @@ export default {
         {
           src: 'OverviewPist058-059-065-082-084_SPOT2022-07-30.jpg',
           position: 'top',
-          title: 'Multiple landing strips',
-          author: 'SPOT IMAGE',
+          title: 'A culuster of airstrips in Huánuco and Pasco',
+          author: 'Airbus',
         },
       ],
       description:
@@ -300,7 +309,12 @@ export default {
           opacity: 1,
         },
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: 'deforestationthreeregions-dcthbg',
+          opacity: 0,
+        }
+      ],
     },
     {
       id: 'seventh-chapter',
@@ -312,7 +326,7 @@ export default {
           src: 'Pist014_SPOT2022-07-05.jpg',
           position: 'top',
           title: 'Airstrip 14',
-          author: 'SPOT Image',
+          author: 'Airbus',
         },
       ],
       description:
@@ -328,17 +342,17 @@ export default {
       callback: '',
       onChapterEnter: [
         {
-          layer: 'deforestationthreeregions-dcthbg',
-          opacity: 1,
-        },
-        {
           layer: 'territorios-indigenas-0lu5ni copy',
           opacity: 1,
         },
         {
           layer: 'concesiones-forestales-10-432-dulhn7 copy 2',
           opacity: 0,
-        }
+        },
+        {
+          layer: 'coca-crops-density-20241002t1-55l40t',
+          opacity: .5,
+        },
       ],
       onChapterExit: [
         {
@@ -412,7 +426,7 @@ export default {
           src: 'Pist024-SPOT2023-10-02v2.jpg',
           position: 'top',
           title: 'Airstrip 24',
-          author: 'SPOT',
+          author: 'Airbus',
         },
       ],
       description:
@@ -460,7 +474,7 @@ export default {
           src: 'Pist021_PleiadesNeo2022-09-27.jpg',
           position: 'top',
           title: 'Airstrip 21',
-          author: 'SPOT Image',
+          author: 'Airbus',
         },
       ],
       description:
