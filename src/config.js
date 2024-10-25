@@ -52,7 +52,7 @@ export default {
       hidden: false,
       title: 'Airstrips detected',
       description:
-        'Using the Earth Index, a tool that uses computer vision AI to ideintify patterns in satellite imagery, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.',
+        'Using the Earth Index, a tool that uses computer vision AI to identify patterns in satellite imagery, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.',
       legend: [
         {
           title: 'Landing strips',

@@ -6,7 +6,7 @@ export default {
     "scroll down to discover": 'haz scroll para continuar',
     "Cartography by Willie Shubert for Mongabay.": 'Cartografía por Willie Shubert para Mongabay',
     "Airstrips detected": 'Pistas aéreas detectadas',
-    "Using the Earth Index, a tool that uses computer vision AI to ideintify patterns in satellite imagery, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.":'Earth Index, una herramienta que utiliza inteligencia artificial para identificar patrones en imágenes satelitales, detectó 76 pistas de aterrizaje clandestinas ocultas en la selva peruana.',
+    "Using the Earth Index, a tool that uses computer vision AI to identify patterns in satellite imagery, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.":'Earth Index, una herramienta que utiliza inteligencia artificial para identificar patrones en imágenes satelitales, detectó 76 pistas de aterrizaje clandestinas ocultas en la selva peruana.',
     'Landing strips':'Pistas de aterrizaje',
     "National Police of Peru's Anti-Narcotics Unit (Dirandro), Earth Genome, OpenStreetMap, and Ucayali Regional Government.":'Dirandro, Gore Ucayali, Earth Genome y OpenStreetMap.',
     "Airstrip 69":'Pista 69',
