@@ -156,7 +156,7 @@ export default {
     },
     {
       id: 'third-chapter',
-      alignment: 'fully',
+      alignment: 'left',
       hidden: false,
       title: 'Beseiging Indigenous territories',
       description:
@@ -201,7 +201,7 @@ export default {
     },
     {
       id: 'fourth-chapter',
-      alignment: 'fully',
+      alignment: 'right',
       hidden: false,
       title: 'Atalaya Province',
       images: [
@@ -267,12 +267,90 @@ export default {
           layer: 'coca-crops-density-20241002t1-55l40t',
           opacity: .5,
         },
+        {
+          layer: 'ucayali-2007-2zaeib',
+          opacity: 0
+        },
+        {
+          layer: 'huanuco-pasco-2007-inei-bx7b10',
+          opacity: 0
+        },
+        {
+          layer: 'defendersdistricts-7sj9z1',
+          opacity: 0
+        },
+        {
+          layer: 'ucayali-2007-2zaeib deadly',
+          opacity: .3
+        },
+        {
+          layer: 'huanuco-pasco-2007-inei-bx7b10 deadly',
+          opacity: .3
+        },
+        {
+          layer: 'defendersdistricts-7sj9z1 deadly',
+          opacity: .3
+        }
       ],
       onChapterExit: [
         {
           layer: 'coca-crops-density-20241002t1-55l40t',
           opacity: 0,
         },
+        {
+          layer: 'ucayali-2007-2zaeib',
+          opacity: [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            5.5,
+            0,
+            6.5,
+            0.2,
+            10,
+            0.05
+          ]
+        },
+        {
+          layer: 'huanuco-pasco-2007-inei-bx7b10',
+          opacity: [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            5.5,
+            0,
+            6.5,
+            0.2,
+            10,
+            0.05
+          ]
+        },
+        {
+          layer: 'defendersdistricts-7sj9z1',
+          opacity: [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            5.5,
+            0,
+            6.5,
+            0.2,
+            10,
+            0.05
+          ]
+        },
+        {
+          layer: 'ucayali-2007-2zaeib deadly',
+          opacity: 0
+        },
+        {
+          layer: 'huanuco-pasco-2007-inei-bx7b10 deadly',
+          opacity: 0
+        },
+        {
+          layer: 'defendersdistricts-7sj9z1 deadly',
+          opacity: 0
+        }
       ],
     },
     {
@@ -292,7 +370,7 @@ export default {
         'Following up on the satellite imagery analysis, Mongabay Latam journalists reached two communities, located between the regions of Huánuco and Pasco with 15 clandestine landing strips in their territories.',
       location: {
         center: [-74.927, -9.79],
-        zoom: 11.06,
+        zoom: 12.06,
         pitch: 16,
         bearing: 49.6,
       },
@@ -363,7 +441,7 @@ export default {
     },
     {
       id: 'eighth-chapter',
-      alignment: 'fully',
+      alignment: 'left',
       hidden: false,
       title: 'Forestry concessions',
       images: [

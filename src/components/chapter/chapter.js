@@ -69,7 +69,7 @@ function Chapter({
         </div>
       ))}
       {sources && (
-        <div className="ml-12">
+        <div className="italic text-right text-sm">
           {t('Sources')}: {t(sources)}
         </div>
       )}
