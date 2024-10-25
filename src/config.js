@@ -38,7 +38,7 @@ export default {
     },
     {
       name: 'earthgenome',
-      src: 'EarthGenomeLogo.png',
+      src: 'EarthGenomeLogoWhite.png',
       width: '100',
       href: 'https://earthgenome.org',
         },
@@ -313,7 +313,7 @@ export default {
         {
           layer: 'deforestationthreeregions-dcthbg',
           opacity: 0,
-        }
+        },
       ],
     },
     {
