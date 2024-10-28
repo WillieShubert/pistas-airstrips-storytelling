@@ -146,12 +146,20 @@ export default {
           layer: 'territorios-indigenas-0lu5ni copy',
           opacity: 0,
         },
+        {
+          layer: 'airstrip 69',
+          opacity: 1,
+        }
       ],
       onChapterExit: [
         {
           layer: 'coca-crops-density-20241002t1-55l40t',
           opacity: 0,
         },
+        {
+          layer: 'airstrip 69',
+          opacity: 0,
+        }
       ],
     },
     {
@@ -239,8 +247,17 @@ export default {
           layer: 'coca-crops-density-20241002t1-55l40t',
           opacity: 0.5,
         },
+        {
+          layer: 'airstrip 18',
+          opacity: 1,
+        }
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: 'airstrip 18',
+          opacity: 0,
+        }
+      ],
     },
     {
       id: 'fifth-chapter',
@@ -431,12 +448,20 @@ export default {
           layer: 'coca-crops-density-20241002t1-55l40t',
           opacity: .5,
         },
+        {
+          layer: 'airstrip 14',
+          opacity: 1,
+        }
       ],
       onChapterExit: [
         {
           layer: 'territorios-indigenas-0lu5ni copy',
           opacity: 0,
         },
+        {
+          layer: 'airstrip 14',
+          opacity: 0,
+        }
       ],
     },
     {
@@ -539,8 +564,17 @@ export default {
           layer: 'territorios-indigenas-0lu5ni copy',
           opacity: 0,
         },
+        {
+          layer: 'airstrip 24',
+          opacity: 1,
+        }
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: 'airstrip 24',
+          opacity: 0,
+        }
+      ],
     },
     {
       id: 'tenth-identifier',
@@ -587,12 +621,20 @@ export default {
           layer: 'territorios-indigenas-0lu5ni copy',
           opacity: 1,
         },
+        {
+          layer: 'airstrip 21',
+          opacity: 1,
+        }
       ],
       onChapterExit: [
         {
           layer: 'coca-crops-density-20241002t1-55l40t',
           opacity: 0,
         },
+        {
+          layer: 'airstrip 21',
+          opacity: 0,
+        }
       ],
     },
   ],
