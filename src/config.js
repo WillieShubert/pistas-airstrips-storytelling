@@ -213,7 +213,7 @@ export default {
         },
       ],
       description:
-        'Illegal airstrips have taken over entire landscapes in this corner of the Amazon Rainforest. In the province of Atalaya, which is part of the Ucayali region, we detected 32 airstrips.',
+        'Illegal airstrips have taken over entire landscapes in this corner of the Amazon Rainforest. In the province of Atalaya, which is part of the Ucayali region, we detected 31 airstrips.',
       legend: [
         {
           title: 'Tree Cover Loss',
@@ -408,7 +408,7 @@ export default {
         },
       ],
       description:
-        'We identified at least 2 illegal airstrips in Kakataibo North and South Indigenous Reserve. In addition, six illegal airfields are affecting at least four reserves specificially designated for Indigenous peoples living in isolation and initial contact (PIACI). Although these territories should be off limits by law, they are not being protected in practice.',
+        'We identified at least three illegal airstrips in Kakataibo North and South Indigenous Reserve. In addition, six illegal airfields are affecting at least three reserves specificially designated for Indigenous peoples living in isolation and initial contact (PIACI). Although these territories should be off limits by law, they are not being protected in practice.',
       location: {
         center: [-75.3976425, -9.367474578],
         zoom: 11.06,
@@ -508,7 +508,7 @@ export default {
         },
       ],
       description:
-        'One of the forestry concessions with clandestine airstrips is managed by the company Forestal Mendoza, whose legal representative is Francisco de Asís Mendoza de Souza, the current provincial mayor of Atalaya. He is under investigation for usurpation, embezzlement and money laundering. The Earth Index detected two illegal airstrips within the concession: one opened in June 2018 and the other in June 2020.',
+        'One of the forestry concessions with clandestine airstrips is managed by the company Forestal Mendoza, whose legal representative is Francisco de Asís Mendoza de Souza, the current provincial mayor of Atalaya. He is under investigation for usurpation, embezzlement and money laundering. The Earth Index detected two illegal airstrips within the concession: one opened in June 2018 and the other in June 2020. According to the mayor, the concession is now in the hands of his nephews.',
       location: {
         center: [-73.4800647201553, -9.46968987568065],
         zoom: 11.06,
